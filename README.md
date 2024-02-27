@@ -21,7 +21,7 @@ After gaining insights from the dataset, you will need to present your solution 
 - 2) Exported the cleaned data into 2 .csv files
      - file1 - Used complete cleaned data for further visualization and dashboard in Tableau.
      - file2 - Transformed data to perform Self Join in Tableau for Market Basket Analysis in Tableau.
-- 3) Performed in-depth EDA and extracted insights and present it in form of dashboard.
+- 3) Performed in-depth EDA and extracted insights and presented them in form of dashboard.
 - 4) Performed Market Basket Analysis and made dashboard to present the important insights.
 - 5) Given Recommendations based on the obtained insights.
 - 6) Concluded the effects of recommendations on the business revenue and inventory mix.
