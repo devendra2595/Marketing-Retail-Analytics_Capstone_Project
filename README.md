@@ -25,3 +25,20 @@ After gaining insights from the dataset, you will need to present your solution 
 - 4) Performed Market Basket Analysis and made dashboard to present the important insights.
 - 5) Given Recommendations based on the obtained insights.
 - 6) Concluded the effects of recommendations on the business revenue and inventory mix.
+ 
+# Recommendations
+- We can reduce the category breadth by only focusing on 27 categories which are frequently selling together like toys, bed_bath_table, furniture_decor, computer accessories etc. at the cost of only 3 % revenue hit while reducing the inventory by almost 900 unique products.
+- If category depth is high then it can be reduced by targeting 80% or 90% revenue from that category and retaining only the top revenue generating products which can help us achieve the revenue target. 
+- Although toys being highest selling as well as revenue generating category, it is the main culprit behind excessive inventory management costs, we can get rid of the products from toys category with only single unit sales and still achieve 75% of the current revenue from toys category and cater to 83% of the customer demand (toys orders) but on the contrary reduce the toys inventory by 
+almost 60%.
+- Personalized suggestions and recommendations is required to increase the purchase of products in combination with other products or categories.
+-  It is recommended to avoid any abrupt changes in the inventory mix, gradual implementation of the above strategies would make sure that the customers also get some time to adapt to the changes.
+- If possible, the products which we would discontinue or get rid from our warehouse, should be kept under ‘on demand’ order category so that we can outsource that product and deliver it to customers. This would ensure that we don’t lose the customer to our competitor.
+
+
+# Conclusion
+
+- Initially, if we focus on only top 27 categories, we can achieve almost 90% revenue while reducing the inventory by approx. 25%. 
+- Categories which show comparatively higher confidence (more than 10%) of purchase along with toys are bed_bath_table, construction_tools_lights, construction_tools_garden, fashion_bags_accessories, fashion_shoes.
+- While reducing the category depth, it is important to keep an inventory mix of fast moving and slow moving inventory to maintain the revenue as well as inventory management costs.
+- Low revenue generating Non-moving inventory could go under ‘on-demand’ order category.
