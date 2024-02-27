@@ -15,3 +15,13 @@ Some other important aspects that you should consider, such as:
   - After having specific categories in hand that will be beneficial to the company, how can you reduce the number of items in a particular category?
 
 After gaining insights from the dataset, you will need to present your solution along with visualisation in the form of a dashboard and supplement it with an executive summary. This will help the team at OList to take the required action based on your recommendations.
+
+# Flow of capstone project:
+- 1) Performed Data Cleaning and EDA in python
+- 2) Exported the cleaned data into 2 .csv files
+     - i)  file1 - Used complete cleaned data for further visualization and dashboard in Tableau.
+     - ii) file2 - Transformed data to perform Self Join in Tableau for Market Basket Analysis in Tableau.
+- 3) Performed in-depth EDA and extracted insights and present it in form of dashboard.
+- 4) Performed Market Basket Analysis and made dashboard to present the important insights.
+- 5) Given Recommendations based on the obtained insights.
+- 6) Concluded the effects of recommendations on the business revenue and inventory mix.
