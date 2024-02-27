@@ -42,3 +42,27 @@ almost 60%.
 - Categories which show comparatively higher confidence (more than 10%) of purchase along with toys are bed_bath_table, construction_tools_lights, construction_tools_garden, fashion_bags_accessories, fashion_shoes.
 - While reducing the category depth, it is important to keep an inventory mix of fast moving and slow moving inventory to maintain the revenue as well as inventory management costs.
 - Low revenue generating Non-moving inventory could go under ‘on-demand’ order category.
+
+# Data Sources :
+
+1) Here is a snapshot of the data dictionary
+  - Orders information like unique order_id, order_item_id, order purchase-approval-delivery timestamp. etc
+  - Customer’s information like unique customer_id, zipcode, city and state
+  - Payment information like payment_value, payment_type etc.
+  - Product dimension and specification information like category, weight, length etc.
+  - Customer preference information like number of reviews and number of reviews per month
+2) The provided data is captured from the CRM tool used by ‘OList’. (till 17-10-2018 17:30).
+
+# Data Methodology :
+- Checked and Cleaned the data for any duplicate, null, insignificant values.
+- Checked for outliers, as outliers were actual values, the values were kept as it is instead, used median as central measure.
+- Merged the datasets for further analysis and performed EDA.
+- Created new dataset with only order_id and product_category for Market Basket Analysis.
+- Exported the cleaned datasets in Excel format to upload in Tableau.
+- Used Tableau for visualization of data and created appropriate calculated fields to get the insights.
+
+# Data Assumptions :
+- Only ‘delivered’ orders are considered for analysis.
+- Order_purchased_timestamp< order_approved_at < order_delivered_timestamp.
+- Shipping charges given are assumed to be for individual product.
+
