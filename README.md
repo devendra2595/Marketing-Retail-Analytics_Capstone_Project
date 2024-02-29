@@ -17,7 +17,7 @@ Some other important aspects that you should consider, such as:
 After gaining insights from the dataset, you will need to present your solution along with visualisation in the form of a dashboard and supplement it with an executive summary. This will help the team at OList to take the required action based on your recommendations.
 
 # Flow of capstone project:
-- 1) Performed Data Cleaning and EDA in python
+- 1) Performed Data Cleaning and EDA using python
 - 2) Exported the cleaned data into 2 .csv files
      - file1 - Used complete cleaned data for further visualization and dashboard in Tableau.
      - file2 - Transformed data to perform Self Join in Tableau for Market Basket Analysis in Tableau.
