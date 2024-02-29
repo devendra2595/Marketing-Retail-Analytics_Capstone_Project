@@ -26,6 +26,10 @@ After gaining insights from the dataset, you will need to present your solution 
 - 5) Given Recommendations based on the obtained insights.
 - 6) Concluded the effects of recommendations on the business revenue and inventory mix.
  
+# Some of the Important insights
+
+- 1) Dashboard 
+ 
 # Recommendations
 - We can reduce the category breadth by only focusing on 27 categories which are frequently selling together like toys, bed_bath_table, furniture_decor, computer accessories etc. at the cost of only 3 % revenue hit while reducing the inventory by almost 900 unique products.
 - If category depth is high then it can be reduced by targeting 80% or 90% revenue from that category and retaining only the top revenue generating products which can help us achieve the revenue target. 
@@ -54,15 +58,10 @@ almost 60%.
 2) The provided data is captured from the CRM tool used by ‘OList’. (till 17-10-2018 17:30).
 
 # Data Methodology :
-- Checked and Cleaned the data for any duplicate, null, insignificant values.
-- Checked for outliers, as outliers were actual values, the values were kept as it is instead, used median as central measure.
+- Checked the data for any duplicate, null, insignificant values and Cleaned using python.
+- Checked for outliers, as outliers were actual values, the values were kept as it is, instead used median as central measure.
 - Merged the datasets for further analysis and performed EDA.
 - Created new dataset with only order_id and product_category for Market Basket Analysis.
 - Exported the cleaned datasets in Excel format to upload in Tableau.
 - Used Tableau for visualization of data and created appropriate calculated fields to get the insights.
-
-# Data Assumptions :
-- Only ‘delivered’ orders are considered for analysis.
-- Order_purchased_timestamp< order_approved_at < order_delivered_timestamp.
-- Shipping charges given are assumed to be for individual product.
 
