@@ -28,8 +28,15 @@ After gaining insights from the dataset, you will need to present your solution 
  
 # Some of the Important insights
 
-- 1) Dashboard 
- 
+- 1) Products Dashboard
+
+![Dashboard 1](https://github.com/devendra2595/Marketing-Retail-Analytics_Capstone_Project/assets/116253033/f438cab5-7067-449c-aad4-a553b49eda83)
+
+- 2) Market Basket Analysis Dashboard
+
+![Market Basket Analysis](https://github.com/devendra2595/Marketing-Retail-Analytics_Capstone_Project/assets/116253033/f0c07fa6-56a7-445d-a6a8-2d742f833cc2)
+
+
 # Recommendations
 - We can reduce the category breadth by only focusing on 27 categories which are frequently selling together like toys, bed_bath_table, furniture_decor, computer accessories etc. at the cost of only 3 % revenue hit while reducing the inventory by almost 900 unique products.
 - If category depth is high then it can be reduced by targeting 80% or 90% revenue from that category and retaining only the top revenue generating products which can help us achieve the revenue target. 
