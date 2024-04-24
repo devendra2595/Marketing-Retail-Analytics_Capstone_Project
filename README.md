@@ -1,4 +1,4 @@
-# Marketing-Retail-Analytics_Capstone_Project
+# Marketing & Retail Analytics Capstone Project
 
 # Business Background
 
